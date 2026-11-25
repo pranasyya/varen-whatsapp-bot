@@ -1,0 +1,17 @@
+{
+  "name": "varen-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "Varen Life WhatsApp assistant: menus, AI answers from the Varen knowledge base, and handover to a human agent.",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "chat": "node test/chat.js",
+    "test": "node test/simulate.js",
+    "check": "node test/check-smartping.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {}
+}
